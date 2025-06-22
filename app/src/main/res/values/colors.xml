@@ -3,4 +3,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background_login">#009788</color>
+    <color name="cinza">#ABB5B4</color>
 </resources>

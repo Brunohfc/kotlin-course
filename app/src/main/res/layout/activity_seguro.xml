@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".seguroActivity"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seguros XPTO"
+        android:textAlignment="center"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="26dp"
+        android:background="@android:color/transparent"
+
+        />
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Serviços"
+    android:background="@android:color/transparent"
+    android:layout_marginBottom="8dp"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@color/cinza"
+            android:layout_marginEnd="5dp"
+
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Automoveis"
+                android:textAlignment="center"
+                android:background="@android:color/transparent"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@color/cinza"
+
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Imóveis"
+                android:textAlignment="center"
+                android:background="@android:color/transparent"
+                />
+
+        </FrameLayout>
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Novidades"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Desconto de 50% esse mês"
+        android:textSize="13dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/transparent"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Precisa de ajuda?"
+        android:background="@android:color/transparent"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:text="Entrar em contato"
+         />
+
+
+</LinearLayout>
