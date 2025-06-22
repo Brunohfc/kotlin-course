@@ -43,9 +43,16 @@ class loginActivity : AppCompatActivity() , View.OnClickListener{
             var password = binding.editTextPassword.text.toString()
             Log.d("LoginActivity", "Email: $email senha: $password")
 
+            //criando o bundle para enviar dados entre activities
+            val bundle : Bundle = Bundle()
+            bundle.putString("Email", email)
+
+
             if(email.isEmpty() || password.isEmpty()){
                 Toast.makeText(this,R.string.campos_vazios, Toast.LENGTH_SHORT).show()
             }else{
+                //mandando a informação com a intencao
+                intent.putExtras(bundle)
                 startActivity(intent)
             }
 
