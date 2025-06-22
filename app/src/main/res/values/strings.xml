@@ -4,5 +4,6 @@
     <string name="senha">Senha</string>
     <string name="login">Login</string>
     <string name="cadastro">Cadastro</string>
+    <string name="campos_vazios">Insira os valores para entrar</string>
 
 </resources>
